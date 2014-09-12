@@ -14,7 +14,13 @@
      <siteMapNode url="" title="Services"  description="Services menu group" >
             <siteMapNode url="~/SiteMapPages/Training.aspx" title="Training"  description="Training"/>
             <siteMapNode url="~/SiteMapPages/Consulting.aspx" title="Consulting"  description="Consulting"/>
-            <siteMapNode url="~/SiteMapPages/Support.aspx" title="Support"  description="Support"/>
+                 <siteMapNode url="~/SiteMapPages/Support.aspx" title="Support"  description="Support">
+                        <siteMapNode url="~/SiteMapPages/SupportTickets.aspx" title="Support Tickets"  description="Support Tickets"/>
+                 </siteMapNode>
+                <siteMapNode url="~/SiteMapPages/MemberServices.aspx" title="Member Services"  description="Member Services">
+                      <siteMapNode url="~/SiteMapPages/Downloads.aspx" title="Downloads"  description="Downloads"/>
+                     <siteMapNode url="~/SiteMapPages/RegisteredProducts.aspx" title="RegisteredProducts"  description="RegisteredProducts"/>
+               </siteMapNode>
      </siteMapNode>
       
     </siteMapNode>

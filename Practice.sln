@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RepoPractice", "http://localhost:50314", "{B5537A88-CC89-4EC2-B3B3-661C3D35977C}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -25,13 +25,22 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RepoPractice", "http://loca
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eRestaurantSystem", "eRestaurantSystem\eRestaurantSystem.csproj", "{35C74BEF-57A8-4C93-AC1C-03599E697A3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B5537A88-CC89-4EC2-B3B3-661C3D35977C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B5537A88-CC89-4EC2-B3B3-661C3D35977C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5537A88-CC89-4EC2-B3B3-661C3D35977C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5537A88-CC89-4EC2-B3B3-661C3D35977C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{35C74BEF-57A8-4C93-AC1C-03599E697A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C74BEF-57A8-4C93-AC1C-03599E697A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C74BEF-57A8-4C93-AC1C-03599E697A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C74BEF-57A8-4C93-AC1C-03599E697A3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,27 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-    <siteMapNode url="" title="MenuDemo"  description="This is the root of the site map (do NOT display)">
-        <siteMapNode url="~/Default.aspx" title="Home"  description="Home page of website" />
-        <siteMapNode url="~/About.aspx" title="About"  description="About the company" />
-       <siteMapNode url="~/Contact.aspx" title="Contact"  description="Contact the company" />
-       <siteMapNode url="~/XMLFiles/XMLPage.aspx" title="XML Demo"  description="XML Example" />
-      
-      <siteMapNode url="" title="Products"  description="Products menu group" >
-            <siteMapNode url="~/SiteMapPages/Hardware.aspx" title="Hardware"  description="Hardware"/>
-            <siteMapNode url="~/SiteMapPages/Software.aspx" title="Software"  description="Software"/>
-      </siteMapNode>
+  <siteMapNode url="" title="MenuDemo"  description="This is the root of the site map (do NOT display)">
+    <siteMapNode url="~/Default.aspx" title="Home"  description="Home page of website" />
+    <siteMapNode url="~/About.aspx" title="About"  description="About the company" />
+    <siteMapNode url="~/Contact.aspx" title="Contact"  description="Contact the company" />
+    <siteMapNode url="~/XMLFiles/XMLPage.aspx" title="XML Demo"  description="XML Example" />
+
+    <siteMapNode url="" title="Products"  description="Products menu group" >
+      <siteMapNode url="~/SiteMapPages/Hardware.aspx" title="Hardware"  description="Hardware"/>
+      <siteMapNode url="~/SiteMapPages/Software.aspx" title="Software"  description="Software"/>
+    </siteMapNode>
     <!--This is a drop down list - you need a closing siteMapNode! -->
-     <siteMapNode url="" title="Services"  description="Services menu group" >
-            <siteMapNode url="~/SiteMapPages/Training.aspx" title="Training"  description="Training"/>
-            <siteMapNode url="~/SiteMapPages/Consulting.aspx" title="Consulting"  description="Consulting"/>
-                 <siteMapNode url="~/SiteMapPages/Support.aspx" title="Support"  description="Support">
-                        <siteMapNode url="~/SiteMapPages/SupportTickets.aspx" title="Support Tickets"  description="Support Tickets"/>
-                 </siteMapNode>
-                <siteMapNode url="~/SiteMapPages/MemberServices.aspx" title="Member Services"  description="Member Services">
-                      <siteMapNode url="~/SiteMapPages/Downloads.aspx" title="Downloads"  description="Downloads"/>
-                     <siteMapNode url="~/SiteMapPages/RegisteredProducts.aspx" title="RegisteredProducts"  description="RegisteredProducts"/>
-               </siteMapNode>
-     </siteMapNode>
-      
+    <siteMapNode url="" title="Services"  description="Services menu group" >
+      <siteMapNode url="~/SiteMapPages/Training.aspx" title="Training"  description="Training"/>
+      <siteMapNode url="~/SiteMapPages/Consulting.aspx" title="Consulting"  description="Consulting"/>
+      <siteMapNode url="~/SiteMapPages/Support.aspx" title="Support"  description="Support">
+        <siteMapNode url="~/SiteMapPages/SupportTickets.aspx" title="Support Tickets"  description="Support Tickets"/>
+      </siteMapNode>
+      <siteMapNode url="~/SiteMapPages/MemberServices.aspx" title="Member Services"  description="Member Services">
+        <siteMapNode url="~/SiteMapPages/Downloads.aspx" title="Downloads"  description="Downloads"/>
+        <siteMapNode url="~/SiteMapPages/RegisteredProducts.aspx" title="RegisteredProducts"  description="RegisteredProducts"/>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="" title="Demo"  description="Demo page of website" >
+      <siteMapNode url="~/DemoPages/ReservationsByType.aspx" title="SpecialEvent"  description="SpexialEvent"/>
+      <siteMapNode url="~/DemoPages/Reservations.aspx" title="Reservation"  description="Reservation"/>
+  </siteMapNode>
     </siteMapNode>
 </siteMap>

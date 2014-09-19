@@ -18,7 +18,7 @@ namespace eRestaurantSystem.DAL
         
         //One DBset is created for each entiry to be referenced by your application.
         public DbSet<SpecialEvent> SpecialEvents{get;set;}
-        //public DbSet<Reservation> Reservations { get; set; }
+        public DbSet<Reservation> Reservations { get; set; }
         //public DbSet<Table> Tables { get; set; }
         
     }

@@ -15,11 +15,11 @@
       <siteMapNode url="~/SiteMapPages/Training.aspx" title="Training"  description="Training"/>
       <siteMapNode url="~/SiteMapPages/Consulting.aspx" title="Consulting"  description="Consulting"/>
       <siteMapNode url="~/SiteMapPages/Support.aspx" title="Support"  description="Support">
-        <siteMapNode url="~/SiteMapPages/SupportTickets.aspx" title="Support Tickets"  description="Support Tickets"/>
+        <siteMapNode url="~/MemberServices/SupportTickets.aspx" title="Support Tickets"  description="Support Tickets"/>
       </siteMapNode>
-      <siteMapNode url="~/SiteMapPages/MemberServices.aspx" title="Member Services"  description="Member Services">
-        <siteMapNode url="~/SiteMapPages/Downloads.aspx" title="Downloads"  description="Downloads"/>
-        <siteMapNode url="~/SiteMapPages/RegisteredProducts.aspx" title="RegisteredProducts"  description="RegisteredProducts"/>
+      <siteMapNode url="~/MemberServices/Default.aspx" title="Member Services"  description="Member Services">
+        <siteMapNode url="~/MemberServices/Downloads.aspx" title="Downloads"  description="Downloads"/>
+        <siteMapNode url="~/MemberServices/RegisteredProducts.aspx" title="RegisteredProducts"  description="RegisteredProducts"/>
       </siteMapNode>
     </siteMapNode>
     <siteMapNode url="" title="Demo"  description="Demo page of website" >
